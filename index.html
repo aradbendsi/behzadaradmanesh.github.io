@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hurricane&family=Merriweather:ital,wght@0,700;1,700&family=Raleway:wght@200&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hurricane&family=Merriweather:ital,wght@0,700;1,700&family=Raleway:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hurricane&family=Merriweather:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-header">
+        <div class="hheader">
+          <header>
+            <div class="left-section">
+              <ul>
+                <li>
+                  <a href="/index.html">Home</a>
+                  <a href="/about.html">Products</a>
+                  <a href="/product.html">Service</a>
+                  <a href="/blog.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="right-section">
+              <a class="sign-up" href="/signup.html">Sign Up</a>
+              <a class="login" href="/login.html">Login</a>
+            </div>
+          </header>
+        </div>
+        <div class="bottom-of-header">
+          <div class="des">
+            <h1 class="descrip">Web Design &<br />Web development</h1>
+            <p class="sub-descrip">
+              Hello There, I'm a web designer and <br />
+              I provide services like web desing and <br />web development
+            </p>
+            <div class="freelance-profile">
+              <a href="">Freelance Profile</a>
+            </div>
+          </div>
+          <div class="img-header">
+            <img class="header-img" src="images/image-9.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  </body>
+  <script>
+    const video1 = document.querySelectorAll(".video1");
+    for (let i = 0; i < video1.length; i++) {
+      video1[i].addEventListener("mouseenter", function (e) {
+        video1[i].play();
+      });
+      video1[i].addEventListener("mouseout", function (e) {
+        video1[i].pause();
+      });
+    }
+  </script>
+</html>

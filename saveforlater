@@ -1,0 +1,26 @@
+<!-- for video -->
+<section class="section-2">
+  <div class="video-list">
+    <div class="video">
+      <video
+        src="/videos/poornag_rock.mp4"
+        type="video/mp4"
+        class="video1"
+        loop
+        preload
+      ></video>
+    </div>
+  </div>
+  <style>
+    .login {
+      font-size: 17px;
+      color: rgb(53, 133, 155);
+      border-radius: 20px;
+      text-decoration: none;
+      margin-right: 10px;
+      border: 1px solid rgb(17, 103, 169);
+      padding: 9.5px 26px;
+      transition: all 0.15s ease-out;
+    }
+  </style>
+</section>
